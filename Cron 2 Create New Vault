@@ -1,0 +1,10 @@
+vaultName=$(date "+%y%m%y")
+(pretty much instant)
+
+
+aws glacier create-vault --vault-name $vaultName --account-id -
+(pretty much instant)
+
+
+aws glacier upload-archive --account-id - --vault-name $vaultName --body filestore.zip
+(give this time to complete - max it out from 6pm to 6am (based on other process requirements)

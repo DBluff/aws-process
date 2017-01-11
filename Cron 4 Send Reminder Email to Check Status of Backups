@@ -1,0 +1,4 @@
+mutt -s "Test from mutt" -a /tmp/message.txt -- douglas.bluff@austincc.edu < ../../../../tmp/message.txt
+(send this the day afterward - so that glacier will show the file)
+UPDATE MESSAGE
+
